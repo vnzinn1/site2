@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('imagens/WallpaperBrull_Designer531.png'); /* URL da imagem */
+    background-size: cover; /* Faz com que a imagem ocupe a tela toda */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    font-family: 'fonte1', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0); /* Transparente */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+    margin-left: 10px;
+}
+
+.navbar a:hover {
+    color: #ff0000;
+}
+
+.navbar-logo img {
+    height: 100px;
+}
+
+.content {
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-family: 'font1', sans-serif;
+    font-size:xx-large;
+    margin-top: 50px;
+}
+
+@font-face {
+    font-family: 'font1';
+    src: url('fonts/Mayeka_Thin_Demo.otf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+/* Estilo dos botões */
+button {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+    width: 200px; /* Largura fixa para todos os botões */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    margin-right: 40px;
+  }
+  
+  #btn:hover,
+  :focus {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+      0 0 100px #008cff;
+  }
+  
+  /* Estilo para centralizar os botões */
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    gap: 20px; /* Espaçamento entre os botões */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }  
